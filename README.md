@@ -1,5 +1,5 @@
 # Volt-Card
-[Card](link) is a wonderful library that makes credit card forms easy and beautiful with a single
+[Card](http://www.github.com/jessepollak/card) is a wonderful library that makes credit card forms easy and beautiful with a single
 line of code.
 ![card](http://i.imgur.com/qG3TenO.gif)
 
@@ -55,7 +55,7 @@ And wa-la, CSS is included for all major carriers, and it also has built in vali
 it serverside and we have added a single line and made our form beautiful, and added a great element
 to the general UX of our site.
 
-Props to [@jessepollak](link) for building Card originally. I am but a guy porting it.
+Props to [@jessepollak](http://www.twitter.com/jessepollak) for building Card originally. I am but a guy porting it.
 
 1. Fork it ( http://github.com/[my-github-username]/volt-card/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
