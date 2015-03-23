@@ -1,4 +1,7 @@
 # Volt-Card
+
+### Note that this is a WIP but I am easily contacted, love PR's, and just wanna give people cool things.
+
 [Card](http://www.github.com/jessepollak/card) is a wonderful library that makes credit card forms easy and beautiful with a single
 line of code.
 ![card](http://i.imgur.com/qG3TenO.gif)
