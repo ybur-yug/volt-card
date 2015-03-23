@@ -1,6 +1,7 @@
-# Volt::Card
-
-TODO: Write a gem description
+# Volt-Card
+[Card](link) is a wonderful library that makes credit card forms easy and beautiful with a single
+line of code.
+![card](http://i.imgur.com/qG3TenO.gif)
 
 ## Installation
 
@@ -16,11 +17,45 @@ Or install it yourself as:
 
     $ gem install volt-card
 
+Proceed to add it to `dependencies.rb`
+
+```RUBY
+component 'card'
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+Inside any form like this...
 
-## Contributing
+```RUBY
+<div class="demo-container">
+  <div class="card-wrapper"></div>
+    <div class="form-container active">
+      <form e-submit="process_payment">
+        <input placeholder="Card number" type="text" name="number" value="{{ _card_number }}" >
+        <input placeholder="Full name" type="text" name="name"value="{{ _full_name }}" >
+        <input placeholder="MM/YY" type="text" name="expiry"value="{{ _exp_date }}">
+        <input placeholder="CVC" type="text" name="cvc"value="{{ _cvc }}">
+      </form>
+    </div>
+  </div>
+</div>
+```
+
+we go on to add:
+
+```
+# form is up here
+...
+{{ card = `new Card({form: document.querySelector('form'),container: '.card-wrapper'});` }}
+...
+```
+
+And wa-la, CSS is included for all major carriers, and it also has built in validations. Send
+it serverside and we have added a single line and made our form beautiful, and added a great element
+to the general UX of our site.
+
+Props to [@jessepollak](link) for building Card originally. I am but a guy porting it.
 
 1. Fork it ( http://github.com/[my-github-username]/volt-card/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
