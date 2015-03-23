@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.version       = version
   spec.authors       = ["Robert H Grayson II"]
   spec.email         = ["bobbygrayson@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Beautiful CC forms in 1 LOC.}
+  spec.description   = %q{See summary.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "volt", "~> 0.8.27.0"
+  spec.add_development_dependency "volt", "~> 0.8.27.beta3"
   spec.add_development_dependency "rake"
 end
