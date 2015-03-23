@@ -48,6 +48,7 @@ we go on to add:
 # form is up here
 ...
 {{ card = `new Card({form: document.querySelector('form'),container: '.card-wrapper'});` }}
+{{ # Note that currently only inline JS via tickmarks is supported (` notation for Opal) }}
 ...
 ```
 
