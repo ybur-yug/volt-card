@@ -10,7 +10,7 @@ line of code.
 
 Add this line to your application's Gemfile:
 
-    gem 'volt-card'
+    gem 'volt-card', :git 'https://github.com/rhgraysonii/volt-card'
 
 And then execute:
 
